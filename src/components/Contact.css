@@ -102,6 +102,17 @@
   margin-top: 0.5rem;
 }
 
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: #ff6b6b;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 968px) {
   .contact-content {
     grid-template-columns: 1fr;

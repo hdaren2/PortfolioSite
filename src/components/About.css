@@ -87,6 +87,15 @@
   box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2);
 }
 
+.about-photo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2);
+  object-fit: cover;
+}
+
 @media (max-width: 968px) {
   .about-content {
     grid-template-columns: 1fr;

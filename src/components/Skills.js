@@ -4,16 +4,16 @@ import './Skills.css';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
-      skills: ['React', 'JavaScript', 'TypeScript', 'HTML/CSS', 'Tailwind CSS', 'Redux']
+      title: 'Languages',
+      skills: ['Java', 'C', 'Python', 'C#', 'SQL', 'C++','JavaScript', 'Rust', 'Dart', 'Ruby', 'OCaml', 'Assembly', 'Tiger']
     },
     {
-      title: 'Backend',
-      skills: ['Node.js', 'Express', 'Python', 'REST APIs', 'GraphQL', 'MongoDB']
+      title: 'Frameworks & Tools',
+      skills: ['Git', 'GitHub', 'Docker', 'Flutter', 'Unity', '.NET', 'Supabase', 'Linux', 'Android Studio', 'Xcode', 'Visual Studio', 'Eclipse', 'NumPy', 'SciPy', 'Jira']
     },
     {
-      title: 'Tools & Others',
-      skills: ['Git', 'Docker', 'AWS', 'CI/CD', 'Jest', 'Webpack']
+      title: 'Core Competencies',
+      skills: ['Object-Oriented Design', 'Data Structures & Algorithms', 'Systems Programming', 'Operating Systems', 'Networking Fundamentals', 'Agile/Scrum', 'Software Testing', 'Version Control']
     }
   ];
 
